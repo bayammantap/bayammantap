@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+.cta-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.primary {
+  background: #00ff99;
+  color: #000;
+}
+
+.secondary {
+  background: #ffcc00;
+  color: #000;
+}
+
+.note {
+  margin-top: 25px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+/* File: style.css */
+.decor-image {
+  text-align: center;       /* Gambar di tengah */
+  margin-bottom: 15px;      /* Jarak antara gambar dan tombol */
+}
+
+.decor-image img {
+  max-width: 100%;          /* Supaya responsif di mobile */
+  height: auto;
+}
