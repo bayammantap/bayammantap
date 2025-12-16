@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+  <!-- ================= BASIC META ================= -->
   <meta charset="UTF-8">
-  <title>Bayam123 Link Alternatif Terbaru | Akses Cepat & Aman</title>
-
-   <!-- Favicon -->
-  <link rel="icon" href="bayam.png" type="image/x-icon">
-
-  <!-- SEO -->
-  <meta name="description" content="Link alternatif terbaru dengan akses cepat, aman, dan stabil. Cocok untuk traffic Pinterest & Ads.">
-  <meta name="keywords" content="link alternatif, akses cepat, situs terpercaya">
-  <meta name="robots" content="index, follow">
-
-  <!-- Open Graph (Pinterest & Ads) -->
-  <meta property="og:title" content="Link Alternatif Terbaru">
-  <meta property="og:description" content="Akses cepat & stabil. Klik sekarang!">
-  <meta property="og:image" content="banner.jpg">
-  <meta property="og:type" content="website">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- ================= TITLE ================= -->
+  <title>Bayam123 – Akses Resmi & Alternatif Terbaru</title>
+
+  <!-- ================= SEO DESCRIPTION ================= -->
+  <meta name="description" content="Akses resmi Bayam123 melalui link alternatif terbaru. Cepat, stabil, dan responsif di semua perangkat.">
+  <meta name="robots" content="index, follow">
+
+  <!-- ================= CANONICAL ================= -->
+  <link rel="canonical" href="https://bayammantap.github.io/bayammantap/">
+
+  <!-- ================= FAVICON ================= -->
+  <link rel="icon" href="bayam.png" type="image/x-icon">
+
+  <!-- ================= OPEN GRAPH (ADS & SHARE) ================= -->
+  <meta property="og:title" content="Bayam123 – Akses Resmi & Alternatif Terbaru">
+  <meta property="og:description" content="Link alternatif Bayam123 dengan akses cepat dan stabil.">
+  <meta property="og:url" content="https://bayammantap.github.io/bayammantap/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://bayammantap.github.io/bayammantap/banner.jpg">
+
+  <!-- ================= TWITTER CARD ================= -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ================= PERFORMANCE ================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- ================= CSS ================= -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- OneSignal -->
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <!-- ================= ONESIGNAL ================= -->
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
   <script>
     window.OneSignal = window.OneSignal || [];
     OneSignal.push(function() {
       OneSignal.init({
         appId: "ISI_APP_ID_ONESIGNAL_KAMU",
-        notifyButton: { enable: true },
+        notifyButton: { enable: true }
       });
     });
   </script>
 
-  <!-- FB Pixel -->
+  <!-- ================= FACEBOOK PIXEL ================= -->
   <script>
     !function(f,b,e,v,n,t,s){
       if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -44,28 +57,32 @@
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)
     }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', 'ISI_FB_PIXEL_ID'); 
+    fbq('init', 'ISI_FB_PIXEL_ID');
     fbq('track', 'PageView');
   </script>
 
-  <!-- TikTok Pixel -->
+  <!-- ================= TIKTOK PIXEL ================= -->
   <script>
     !function (w, d, t) {
       w.TiktokAnalyticsObject = t;
       var ttq = w[t] = w[t] || [];
-      ttq.methods = ["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"];
-      ttq.setAndDefer = function (t, e) { t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } };
-      for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
-      ttq.instance = function (t) { var e = {}; for (var n = 0; n < ttq.methods.length; n++) { e[ttq.methods[n]] = ttq.methods[n] } return e };
-      ttq.load = function (e, n) { var i = "https://analytics.tiktok.com/i18n/pixel/events.js"; ttq._i = ttq._i || []; ttq._i.push([e, n]); var o = d.createElement("script"); o.type = "text/javascript"; o.async = !0; o.src = i; var a = d.getElementsByTagName("script")[0]; a.parentNode.insertBefore(o, a) };
+      ttq.methods = ["page","track"];
+      ttq.methods.forEach(function(m){
+        ttq[m] = function(){ ttq.push([m].concat([].slice.call(arguments))) }
+      });
+      ttq.load = function(e){
+        var s = d.createElement("script");
+        s.async = true;
+        s.src = "https://analytics.tiktok.com/i18n/pixel/events.js";
+        d.getElementsByTagName("head")[0].appendChild(s);
+      };
       ttq.load('ISI_TIKTOK_PIXEL_ID');
       ttq.page();
     }(window, document, 'ttq');
   </script>
 
+  <!-- ================= INTERNAL STYLE ================= -->
   <style>
-    
-    /* Tombol floating kanan bawah */
     .floating-btn {
       position: fixed;
       bottom: 20px;
@@ -84,7 +101,6 @@
       transform: scale(1.1);
     }
 
-    /* Tombol kecil kiri bawah untuk nonaktifkan redirect */
     .cancel-redirect-btn {
       position: fixed;
       bottom: 20px;
@@ -97,11 +113,6 @@
       cursor: pointer;
       z-index: 9999;
       opacity: 0.8;
-      transition: opacity 0.3s, transform 0.3s;
-    }
-    .cancel-redirect-btn:hover {
-      opacity: 1;
-      transform: scale(1.1);
     }
   </style>
 </head>
@@ -195,4 +206,5 @@
   </script>
 </body>
 </html>
+
 
