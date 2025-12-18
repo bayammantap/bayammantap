@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Halaman utama -->
+  <url>
+    <loc>https://bayammantap.github.io/bayammantap/</loc>
+    <lastmod>2025-12-18</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Halaman daftar / registrasi -->
+  <url>
+    <loc>https://maindibayam123gampangcuan.xyz/daftar?ref=popol</loc>
+    <lastmod>2025-12-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Halaman login / akses -->
+  <url>
+    <loc>https://heylink.me/BAYAM123VIP/</loc>
+    <lastmod>2025-12-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tambahkan halaman lain jika ada -->
+</urlset>
