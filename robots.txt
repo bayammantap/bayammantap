@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+
+Sitemap: https://bayammantap.github.io/bayammantap/sitemap.xml
