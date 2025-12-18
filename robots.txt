@@ -1,5 +1,8 @@
+# robots.txt untuk Bayam123 - update 2025-12-18
+
 User-agent: *
-Disallow: /private/
+Disallow:
+
 Allow: /
 
 Sitemap: https://bayammantap.github.io/bayammantap/sitemap.xml
