@@ -4,7 +4,6 @@
   <!-- BASIC -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Bayam123 – Informasi Lengkap, Link Alternatif Resmi & Akses Aman</title>
 
   <!-- SEO -->
@@ -24,7 +23,67 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header, main, footer {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 { color: #ff5722; font-size: 2.5rem; margin-bottom: 10px; }
+    h2 { color: #ff5722; font-size: 2rem; margin-top: 40px; }
+    h3 { color: #ff5722; font-size: 1.5rem; margin-top: 30px; }
+    p, li, ol, ul { margin-bottom: 15px; }
+    .container { text-align: center; margin-top: 30px; }
+    .logo img { max-width: 200px; margin-bottom: 20px; }
+    .cta-box { margin-top: 20px; }
+    .cta-box img { max-width: 100%; height: auto; border-radius: 10px; }
+    .btn {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn.primary { background: #ff5722; color: #fff; }
+    .btn.secondary { background: #2196f3; color: #fff; }
+    .btn:hover { transform: scale(1.05); }
+    .subtitle { font-weight: bold; margin-bottom: 15px; }
+    .note { font-size: 0.9rem; color: #555; margin-top: 10px; }
+    footer { text-align: center; margin-top: 50px; font-size: 0.9rem; color: #777; }
+
+    /* Floating CTA */
+    .floating-btn{
+      position:fixed;bottom:20px;right:20px;
+      background:#ff5722;color:#fff;
+      padding:15px 20px;border-radius:50px;
+      text-decoration:none;font-size:16px;
+      z-index:9999;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+    .floating-btn:hover {
+      background:#e64a19;
+      transform: scale(1.05);
+    }
+
+    /* Responsive */
+    @media(max-width:768px){
+      h1{font-size:2rem;}
+      h2{font-size:1.5rem;}
+      h3{font-size:1.2rem;}
+      .btn{padding:10px 20px;font-size:14px;}
+    }
+  </style>
 
   <!-- OneSignal -->
   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
@@ -35,6 +94,7 @@
         appId: "ISI_APP_ID_ONESIGNAL_KAMU",
         notifyButton: { enable: true }
       });
+      OneSignal.showNativePrompt();
     });
   </script>
 
@@ -72,31 +132,16 @@
     }(window, document, 'ttq');
   </script>
 
-  <style>
-    .floating-btn{
-      position:fixed;bottom:20px;right:20px;
-      background:#ff5722;color:#fff;
-      padding:15px 20px;border-radius:50px;
-      text-decoration:none;font-size:16px;
-      z-index:9999;
-    }
-  </style>
 </head>
-
 <body>
 
-<!-- ================= ARTIKEL SEO (ATAS) ================= -->
+<!-- ================= HEADER / SEO TEXT ================= -->
 <header>
   <h1>Bayam123 – Informasi Lengkap & Panduan Resmi Akses Situs</h1>
   <p>Sumber informasi terpercaya mengenai Bayam123, link alternatif resmi, dan panduan akses aman.</p>
 </header>
 
-<main>
-
-<hr>
-
-<!-- ================= BAGIAN SITUS & CTA (BAWAH) ================= -->
-
+<!-- ================= CTA / ABOVE FOLD ================= -->
 <div class="container">
   <div class="logo">
     <img src="kntol.png" alt="Logo Bayam123">
@@ -106,11 +151,16 @@
   <p class="subtitle">Akses cepat • Stabil • Tanpa ribet</p>
 
   <div class="cta-box">
-    <img src="Bayam123-Modal-Receh-Jepe-Jutaan.png" alt="Bayam123 Promo">
+    <img src="Bayam123-Modal-Receh-Jepe-Jutaan.png" alt="Promo Bayam123 Modal Receh Menang Jutaan">
 
     <div class="cta-box">
-      <a href="https://heylink.me/BAYAM123VIP/" class="btn primary">🔗 LOGIN SEKARANG</a>
-      <a href="https://maindibayam123gampangcuan.xyz/daftar?ref=popol" class="btn secondary">📱 DAFTAR AKUN</a>
+      <a href="https://heylink.me/BAYAM123VIP/" class="btn primary"
+         onclick="fbq('track','Lead');ttq.track('CompleteRegistration');">
+         🔗 LOGIN SEKARANG
+      </a>
+      <a href="https://maindibayam123gampangcuan.xyz/daftar?ref=popol" class="btn secondary">
+         📱 DAFTAR AKUN
+      </a>
     </div>
 
     <p class="note">
@@ -119,41 +169,41 @@
   </div>
 </div>
 
+<main>
+  <!-- ================= SECTIONS ================= -->
   <section>
-  <h2>Apa Itu Bayam123?</h2>
-  <p>Bayam123 adalah platform hiburan online yang dirancang dengan sistem akses cepat, stabil, dan kompatibel di berbagai perangkat. Platform ini menyediakan berbagai layanan yang dapat diakses melalui domain utama maupun link alternatif resmi.</p>
-</section>
+    <h2>Apa Itu Bayam123?</h2>
+    <p>Bayam123 adalah platform hiburan online yang dirancang dengan sistem akses cepat, stabil, dan kompatibel di berbagai perangkat. Platform ini menyediakan berbagai layanan yang dapat diakses melalui domain utama maupun link alternatif resmi.</p>
+  </section>
 
-<section>
-  <h2>Mengapa Bayam123 Menyediakan Link Alternatif?</h2>
-  <p>Link alternatif Bayam123 berfungsi sebagai jalur cadangan ketika domain utama mengalami gangguan. Hal ini memastikan pengguna tetap dapat mengakses layanan tanpa hambatan teknis.</p>
-</section>
+  <section>
+    <h2>Mengapa Bayam123 Menyediakan Link Alternatif?</h2>
+    <p>Link alternatif Bayam123 berfungsi sebagai jalur cadangan ketika domain utama mengalami gangguan. Hal ini memastikan pengguna tetap dapat mengakses layanan tanpa hambatan teknis.</p>
+  </section>
 
-<section>
-  <h2>Keunggulan Bayam123</h2>
-  <ul>
-    <li>Akses cepat & stabil</li>
-    <li>Link alternatif selalu diperbarui</li>
-    <li>Responsif di desktop & mobile</li>
-    <li>Sistem ramah pengguna</li>
-  </ul>
-</section>
+  <section>
+    <h2>Keunggulan Bayam123</h2>
+    <ul>
+      <li>Akses cepat & stabil</li>
+      <li>Link alternatif selalu diperbarui</li>
+      <li>Responsif di desktop & mobile</li>
+      <li>Sistem ramah pengguna</li>
+    </ul>
+  </section>
 
-<section>
-  <h2>Panduan Akses Aman</h2>
-  <ol>
-    <li>Gunakan link resmi atau alternatif terpercaya</li>
-    <li>Pastikan koneksi internet stabil</li>
-    <li>Gunakan browser terbaru</li>
-  </ol>
-</section>
+  <section>
+    <h2>Panduan Akses Aman</h2>
+    <ol>
+      <li>Gunakan link resmi atau alternatif terpercaya</li>
+      <li>Pastikan koneksi internet stabil</li>
+      <li>Gunakan browser terbaru</li>
+    </ol>
+  </section>
 
-<section>
-  <h2>Kesimpulan</h2>
-  <p>Dengan dukungan link alternatif resmi dan sistem yang stabil, Bayam123 menjadi solusi akses hiburan online yang aman dan mudah dijangkau.</p>
-</section>
-
-
+  <section>
+    <h2>Kesimpulan</h2>
+    <p>Dengan dukungan link alternatif resmi dan sistem yang stabil, Bayam123 menjadi solusi akses hiburan online yang aman dan mudah dijangkau.</p>
+  </section>
 </main>
 
 <!-- Floating CTA -->
@@ -169,4 +219,3 @@
 
 </body>
 </html>
-
