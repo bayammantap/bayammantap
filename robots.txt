@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bayammantap.github.io/bayammantap/sitemap-index.xml
+Sitemap: https://bayammantap.github.io/bayammantap/sitemap.xml
+
 
 
