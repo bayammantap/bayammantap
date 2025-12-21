@@ -63,3 +63,15 @@ h1 {
   max-width: 100%;          /* Supaya responsif di mobile */
   height: auto;
 }
+
+.cta-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #8fbc8f;
+}
+
+.cta-text a:hover {
+  text-decoration: underline;
+}
+
